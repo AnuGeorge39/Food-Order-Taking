@@ -1,0 +1,21 @@
+.hero-section {
+  background: linear-gradient(to right, #f97316, #facc15); /* from-orange-500 to-yellow-400 */
+}
+
+.cta-section {
+  background-color: #f97316; /* orange-500 */
+}
+
+.dish-card img {
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.dish-card:hover img {
+  transform: scale(1.05);
+}
+
+.max-width-text {
+  max-width: 700px;
+}

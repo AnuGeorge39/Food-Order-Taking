@@ -1,0 +1,33 @@
+
+.slide_img{
+    width: 70%;
+    height: 15rem;
+}
+.custom-cards-dishes {
+    width: 30% !important; 
+    height: 330px !important; 
+    margin: 13px !important; 
+  }
+  .custom-cards-dishes .card-body {
+    height: 150px !important; 
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important; 
+  }
+  
+  .d-flex {
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px; 
+  }
+
+  .dishes{
+    text-align: center !important;
+    font-size: 250% !important;
+    color: blueviolet !important;
+
+}
+.custom-cards-dishes .card-title {
+    font-size: 90% !important;
+    padding-left: 180px !important;
+  }

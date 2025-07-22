@@ -1,0 +1,10 @@
+.slide_aboutimg{
+    width :30%;
+    height :10rem;
+
+}
+.d-flex {
+    display: flex;
+    justify-content: space-between; 
+    gap: 6px; 
+  }
