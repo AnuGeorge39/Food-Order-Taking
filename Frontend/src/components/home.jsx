@@ -15,8 +15,11 @@ export default function HomePage() {
       <section className="hero-section text-white text-center py-5 px-3">
         <div className="container">
           <h1 className="display-4 fw-bold mb-3">
-            Delicious Food Offered to You
+            🍽 Yours Choice
           </h1>
+          <h3>
+            Delicious Food Offered to You
+          </h3>
           <p className="lead mb-4">Enjoy your favorite dishes without leaving home.</p>
           <button className="btn btn-light text-warning fw-semibold px-4 py-2">
             Order Now
@@ -24,7 +27,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="py-5 bg-light text-center">
+      <section className="py-5 bg-light text-center" id="poupular dishes">
         <div className="container">
           <h2 className="display-6 fw-bold mb-4">Our Popular Dishes</h2>
           <div className="row g-4">

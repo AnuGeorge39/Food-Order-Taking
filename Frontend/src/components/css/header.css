@@ -1,11 +1,13 @@
 .custom-navbar {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffc107 !important;
 }
+
 
 .brand-text {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #f8f9fa !important;
+  color: #eaedf0 !important;
 }
 
 .nav-links .nav-link {
@@ -21,4 +23,7 @@
 .nav-links .nav-link.active {
   font-weight: bold;
   border-bottom: 2px solid #ffc107;
+}
+.ms-auto nav-links{
+  padding-left: 100px;
 }

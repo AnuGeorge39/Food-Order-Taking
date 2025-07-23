@@ -20,12 +20,9 @@ export default function RestaurantFooter() {
           <div className="col-md-4">
             <h5 className="text-uppercase mb-3">Quick Links</h5>
             <ul className="list-unstyled">
-              <li><a href="#menu" className="text-light text-decoration-none">Menu</a></li>
-              <Nav.Link href="/order" className="text-light">Menu</Nav.Link>
+              <Nav.Link href="#poupular dishes" className="text-light">Menu</Nav.Link>
               <Nav.Link href="#about" className="text-light">About</Nav.Link>
-              <li><a href="#home" className="text-light text-decoration-none">About</a></li>
-              <li><a href="#contact" className="text-light text-decoration-none">Contact</a></li>
-              <li><a href="#order" className="text-light text-decoration-none">Order Now</a></li>
+             
             </ul>
           </div>
 

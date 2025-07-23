@@ -66,10 +66,8 @@ const adminhandleShow = () => {
          
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
            <Nav.Link onClick={staffhandleShow}>Staff</Nav.Link>
-<Nav.Link onClick={adminhandleShow}>Admin</Nav.Link>
+           <Nav.Link onClick={adminhandleShow}>Admin</Nav.Link>
           </Nav>
           {/* Staff Login  */}
       <Modal show={staffshow} onHide={staffhandleClose} centered>

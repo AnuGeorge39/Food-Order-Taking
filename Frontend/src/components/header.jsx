@@ -1,8 +1,7 @@
-
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link, useLocation } from "react-router-dom";
-import "./css/header.css";
+import "./css/header.css"; // adjust if the path is different
 
 const Header = () => {
   const location = useLocation();
@@ -16,6 +15,9 @@ const Header = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto nav-links">
+            <Nav.Link as={Link} to="/" active={location.pathname === "/"}>
+              🍽 Yours Choice
+            </Nav.Link>
             <Nav.Link as={Link} to="/" active={location.pathname === "/"}>
               Home
             </Nav.Link>

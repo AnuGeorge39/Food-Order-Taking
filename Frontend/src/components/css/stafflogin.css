@@ -1,0 +1,21 @@
+/* staffLogin.css */
+
+.staff-login-wrapper {
+  background-color: #f0f4f8; /* light soft blue/gray */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.staff-login-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background-color: #fff;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  align-items: center;
+}
