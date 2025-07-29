@@ -1,1 +1,30 @@
 
+
+.custom-navbar {
+  background-color: #130e11 !important; 
+  padding: 0.5rem 1rem;
+  font-size: 50px;
+}
+
+.custom-navbar .nav-links {
+  margin-left: auto;
+  display: flex;
+  gap: 1rem;
+}
+
+.custom-navbar .nav-links .nav-link {
+  color: #e2e7e7 !important; /* teal */
+  font-weight: 1800;
+  font-size: 80%;
+  transition: color 0.3s;
+}
+
+.custom-navbar .nav-links .nav-link:hover {
+  color: #004d40 !important;
+  text-decoration: underline;
+}
+.custom-navbar .brand-text {
+  font-size: 90%;
+  color: #eaedf0 !important;
+}
+

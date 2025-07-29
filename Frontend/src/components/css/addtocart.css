@@ -1,0 +1,24 @@
+/* CartPage.css */
+.cart-container {
+  margin-top: 2rem;
+}
+
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.menu-card {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 200px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.order-id {
+  color: #007bff;
+  font-weight: bold;
+}
+

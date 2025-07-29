@@ -16,6 +16,9 @@ function SizesExample() {
           </Link>
         </div>
         <div className="d-flex gap-3 justify-content-center">
+          <Link to="/allorderpage">
+            <Button variant="primary" size="lg">View Orders</Button>
+          </Link>
           <Link to="/table">
             <Button variant="warning" size="lg">Table</Button>
           </Link>

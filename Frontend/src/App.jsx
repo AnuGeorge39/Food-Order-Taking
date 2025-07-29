@@ -11,6 +11,8 @@ import Staff from "./components/staff.jsx";
 import Table from "./components/table.jsx";
 import Stafflogin from "./components/stafflogin.jsx";
 import Order from "./components/order.jsx";
+import AddToCart from "./components/addtocartpage.jsx";
+import AllOrderPage from "./components/allorderpage.jsx";
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
           <Route path="/table" element={<Table />} />
           <Route path="/stafflogin" element={<Stafflogin />} />
           <Route path="/order" element={<Order />} />
+          <Route path="/addtocart" element={<AddToCart />} />
+          <Route path="/allorderpage" element={<AllOrderPage />}/>
         </Routes>
       </main>
 

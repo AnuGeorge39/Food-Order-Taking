@@ -1,5 +1,6 @@
 import React from "react";
 import "../components/css/home.css";
+import { Link } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css"; 
 import Dishes from "./dishes-carousel.jsx";
 import { Carousel, Image,Card } from 'react-bootstrap';
@@ -21,9 +22,11 @@ export default function HomePage() {
             Delicious Food Offered to You
           </h3>
           <p className="lead mb-4">Enjoy your favorite dishes without leaving home.</p>
-          <button className="btn btn-light text-warning fw-semibold px-4 py-2">
+           <Link to="/addtocart">
+                     <button className="btn btn-light text-warning fw-semibold px-4 py-2">
             Order Now
           </button>
+          </Link>
         </div>
       </section>
 
@@ -100,9 +103,12 @@ export default function HomePage() {
         <div className="container">
           <h2 className="display-6 fw-bold mb-3">Hungry? Order Now!</h2>
           <p className="mb-4">Your favorite dishes are just a click away.</p>
+          <Link to="/addtocart">
           <button className="btn btn-light text-warning fw-semibold px-4 py-2">
             Start Ordering
           </button>
+          </Link>
+          
         </div>
       </section>
 
